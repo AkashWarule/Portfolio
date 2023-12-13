@@ -11,7 +11,7 @@ function App() {
       <Intro/>
       <Skills/>
       <Works/>
-      <Contact/>
+      <Contact/> 
       <Footer/>
     </div>
   );
