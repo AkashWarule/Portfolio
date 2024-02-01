@@ -1,35 +1,35 @@
 import React from 'react'
 import './skills.css';
 import UIDesign from '../../assets/ui-design.png';
-import WebDesign from '../../assets/website-design.png';
-import AppDesign from '../../assets/app-design.png';
+import BackendDev from '../../assets/BackendDev.png'
+import SQL from '../../assets/SQL.png'
 
 const Skills = () => {
   return (
     <section id='skills'>
        <span className='skillTitle'>What I do</span>
-       <span className='skillDesc'>I am a skilled and passionate web designer with experience in creating visually appealing and user-friendly websites.I have a strong understanding of desing and a keen eye for detail.I am proficient in HTML,CSS,and JavaScript as well as design software such as Adobe Photoshop and illustrator. </span>
+       <span className='skillDesc'>I am a skilled and passionate web developer with experience in creating user-friendly websites. I have a strong understanding of web development. I am proficient in HTML,CSS,and JavaScript as well as React.Js </span>
        <div className='skillBars'>
          <div className='skillBar'>
              <img src={UIDesign} alt='UIDesign' className='skillBarImg'/>
              <div className='skillBarText'>
-                <h2>UI/UX esign</h2>
-                <p>This demo text can be changed while making the production ready website. </p>
+                <h2>Web Development</h2>
+                <p>HTML, CSS, JS and React.js </p>
              </div>
          </div>
         
-         <div className='skillBar'>
-             <img src={WebDesign} alt='WebDesign' className='skillBarImg'/>
+          <div className='skillBar'>
+             <img src={BackendDev} alt='BackendDev' className='skillBarImg'/>
              <div className='skillBarText'>
-                <h2>WebDesign</h2>
-                <p>This demo text can be changed while making the production ready website. </p>
+                <h2>Java Development</h2>
+                <p>Spring Boot, Hibernate, Jdbc, Servlet and Jsp, Mvc</p>
              </div>
-         </div>
-         <div className='skillBar'>
-             <img src={AppDesign} alt='AppDesign' className='skillBarImg'/>
+          </div>
+          <div className='skillBar'>
+             <img src={SQL} alt='SQL' className='skillBarImg'/>
              <div className='skillBarText'>
-                <h2>AppDesign</h2>
-                <p>You can write text related to mobile app development.</p>
+                <h2>Database-SQL Server</h2>
+                <p>Sql-server</p>
              </div>
           </div>
       </div>

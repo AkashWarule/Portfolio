@@ -9,8 +9,8 @@ const Intro = () => {
     <section id='intro'>
         <div className='introContent'>
             <span className='hello'>Hello,<br/></span>
-            <span className='introText'>I'm <span className='introName'>Akash</span><br/>Website Designer</span>
-            <p className='intoPara'>I am a Skilled web designer with experience in creating<br/> visually appealing and user friendly websites.</p>
+            <span className='introText'>I'm <span className='introName'>Akash</span><br/>Fullstack Developer</span>
+            <p className='intoPara'>I am a Skilled with HTML,CSS,JS and React.Js<br/> with good knowledge of Java,Spring Boot,Hibernate and SQL</p>
             <Link><button className='btn'><img src={btnImg} alt='Hire' className='btnImg'/>Hire Me</button></Link>
         </div>
         <img src={bg} alt="Profile" className='bg'/>
